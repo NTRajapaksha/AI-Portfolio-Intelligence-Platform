@@ -106,7 +106,7 @@ graph TD
     end
     
     Tools -->|Raw Data| Memory[State Memory]
-    Memory -->|Context| LLM[Gemini 1.5 Flash]
+    Memory -->|Context| LLM[Gemini 2.5 Flash]
     LLM -->|Executive Summary| User
 ```
 
