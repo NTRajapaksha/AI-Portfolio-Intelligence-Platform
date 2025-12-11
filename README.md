@@ -20,7 +20,7 @@ An advanced financial analysis system combining **Google Gemini AI**, **Meta Pro
 ### Option 1: Docker (Recommended)
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/ai-portfolio-intelligence.git
+git clone https://github.com/NTRajapaksha/AI-Portfolio-Intelligence-Platform.git
 cd ai-portfolio-intelligence
 
 # 2. Setup environment
