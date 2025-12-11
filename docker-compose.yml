@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  ai-portfolio-app:
+    # Build from the Dockerfile in the current directory
+    build: .
+    container_name: portfolio-intelligence
+    
+    # Map port 8501 on container to 8501 on Codespaces
+    ports:
+      - "8501:8501"
+    
+    # Pass environment variables from your .env file
+    env_file:
+      - .env
+    
+    # Mount the directory so code changes update instantly (Hot Reload)
+    volumes:
+      - .:/app
+    
+    # Restart automatically if it crashes
+    restart: unless-stopped
