@@ -49,7 +49,7 @@ streamlit run app.py
 
 ### Option 3: Google Colab
 ```python
-!git clone https://github.com/yourusername/ai-portfolio-intelligence.git
+!git clone https://github.com/NTRajapaksha/AI-Portfolio-Intelligence-Platform.git
 %cd ai-portfolio-intelligence
 !pip install -r requirements.txt
 
@@ -179,11 +179,7 @@ MIT License - See LICENSE file
 
 Pull requests welcome! See CONTRIBUTING.md
 
-## 📧 Contact
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourname)
-- Email: your.email@example.com
 
 ---
 
@@ -228,7 +224,7 @@ docker-compose down
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/yourusername/ai-portfolio-intelligence.git
+git remote add origin https://github.com/NTRajapaksha/AI-Portfolio-Intelligence-Platform.git
 git push -u origin main
 
 # 2. Go to share.streamlit.io
