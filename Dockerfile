@@ -5,16 +5,14 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # 1. Install system dependencies required for Prophet & compilation
-# (Prophet needs C++ compilers to build its underlying math engine)
+# REMOVED 'software-properties-common' to fix the build error
 RUN apt-get update && apt-get install -y \
     build-essential \
     curl \
-    software-properties-common \
     git \
     && rm -rf /var/lib/apt/lists/*
 
 # 2. Copy requirements first to leverage Docker caching
-# This way, if you change app.py, Docker won't re-install pandas (slow)
 COPY requirements.txt .
 
 # 3. Install Python libraries
